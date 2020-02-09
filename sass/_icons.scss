@@ -1,0 +1,47 @@
+.icon {
+  display: inline-block;
+  height: 20px;
+  margin-right: 2px;
+  position: relative;
+  width: 20px;
+  top: 3px;
+  background-repeat: no-repeat;
+
+  &.github {
+    background-image: url('./theme/icons/github.svg');
+  }
+  &.linkedin {
+    background-image: url('./theme/icons/linkedin.svg');
+  }
+  &.twitter {
+    background-image: url('./theme/icons/twitter.svg');
+  }
+}
+
+.badge {
+  display: inline-block;
+  height: 40px;
+  margin-right: 2px;
+  position: relative;
+  width: 40px;
+  top: 3px;
+  background-repeat: no-repeat;
+
+  &.eff {
+    background-image: url('./theme/icons/eff.png');
+    background-size: contain;
+    height: 20px;
+    width: 60px;
+  }
+
+  &.queerjs {
+    background-image: url('./theme/icons/queerjs.png');
+    background-size: contain;
+  }
+
+  &.wwc {
+    background-image: url('./theme/icons/wwc.svg');
+    height: 32px;
+    width: 60px;
+  }
+}

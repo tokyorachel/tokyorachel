@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block main %}
+  {% block hero %}
+    {% include "hero.html" %}
+  {% endblock hero %}
+  <div class="container">
+    <section id="engineering" class="text">
+      <h1>Engineering</h1>
+      <div class="content two-col-60">
+        <div>
+          <p>I'm a seasoned web developer with full-stack experience, specializing in the front end. I've worked on data-rich SAAS products in the healthcare industry, built interactive animated websites for Fortune 500 companies, worked with React/Redux on the e-commerce website of a major US athletic retailer, and even dabbled a bit in web-based game development. I'm highly product-driven, and creating great user experiences is what I care about most.</p>
+        </div>
+        <div>
+          <img src="work/works.jpg" alt="">
+        </div>
+      </div>
+
+    </section>
+    <section id="training" class="text">
+      <h1>Training</h1>
+      <div class="content two-col-60 right">
+        <div>
+          <img src="theme/pexels-photo-90807.jpg" alt="">
+        </div>
+        <div>
+          <p>Pedagogy is a passion of mine. With experience both as an academic lecturer and as professional instructor at a javascript bootcamp, I can create and deliver basic or advanced level coding curricula and presentations for all your personal and professional growth needs.</p>
+        </div>
+      </div>
+    </section>
+    <section id="certification" class="text">
+      <h1>Certified</h1>
+      <div class="content col center">
+        <div>
+          <a href="https://www.credential.net/0ab7dba2-4af9-4d0d-bae2-5fc04fc55917">
+            <img src="theme/gmwscert.png" alt="My Google Mobile Web Specialist Certificate">
+          </a>
+        </div>
+        <div>
+          <p>Best practices matter! Over 50% of all web traffic is conducted with mobile devices. Understanding how to create responsive layouts that are optimized for SEO, accessibility and performance is a must in today's industry. That's why I have a taken the time to study and become certified on the latest recommendations in styling, networking, accessiblity, progressive web apps, performance and local caching, testing, and form behavior.</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="text">
+      <h1>Contact me</h1>
+      {% include "contact-form.html" %}
+    </section>
+    <section id="supporting" class="text">
+      <h1>Proud supporter of</h1>
+      <ul>
+        <li>
+          <a href="https://www.womenwhocode.com"><span class="badge wwc"></span>Women Who Code</a>
+        </li>
+        <li>
+          <a href="https://www.globaldiversitycfpday.com">Global Diversity CFP Day</a>
+        </li>
+        <li>
+          <a href="https://queerjs.com"><span class="badge queerjs"></span>QueerJS</a>
+        </li>
+        <li>
+          <a href="https://www.eff.org"><span class="badge eff"></span>Electronic Frontier Foundation</a>
+        </li>
+      </ul>
+    </section>
+  </div>
+{% endblock main %}

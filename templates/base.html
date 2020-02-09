@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rachel Ponce | Front End Fanatic</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="JavaScript Engineer, Professional Instructor, and Google Certified Mobile Web Specialist.">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@t0ky0rachel" />
+  <meta property="og:url" content="https://tokyorachel.com/" />
+  <meta property="og:title" content="Rachel Ponce | Front End Fanatic" />
+  <meta property="og:description" content="JavaScript Engineer, Professional Instructor, and Google Certified Mobile Web Specialist." />
+  <meta property="og:image" content="https://tokyorachel.com/media/tokyorachel_card.jpg" />
+  <link rel="stylesheet" href="styles.css"></style>
+  {% block head %}{% endblock head %}
+</head>
+<body>
+  {% block announcement %}{% endblock annoucement %}
+  {% block header %}
+    {% include "header.html" %}
+  {% endblock header %}
+  <main>
+  {% block main %}{% endblock main %}
+  </main>
+  {% block footer %}
+    {% include "footer.html" %}
+  {% endblock footer %}
+</body>
+</html>

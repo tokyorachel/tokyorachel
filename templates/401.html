@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rachel Ponce | Front End Fanatic</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="JavaScript Engineer, Professional Instructor, and Google Certified Mobile Web Specialist.">
+  <link rel="stylesheet" href="/styles.css">
+  {% block head %}{% endblock head %}
+</head>
+<body>
+  <main>
+    <div class="uncontained">
+      <h1>Oops! You probably shouldn't be here.</h1>
+      <h2>Sorry, 401 access denied.</h2>
+    </div>
+  </main>
+  {% block footer %}
+    {% include "footer.html" %}
+  {% endblock footer %}
+</body>
+</html>

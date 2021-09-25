@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block main %}
+  <div class="uncontained">
+      <h1>Oops! 404</h1>
+      <h2>You're looking for something that doesn't exist. <a href="{{ get_url(path="index.html") | safe }}">Go back to the homepage?</a></h2>
+  </div>
+{% endblock main %}
